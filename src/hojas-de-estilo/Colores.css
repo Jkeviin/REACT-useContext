@@ -1,0 +1,31 @@
+.colores {
+    display: flex;
+}
+
+.color {
+    width: 22px;
+    height: 22px;
+    background-color: red;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 5px;
+}
+
+.color:nth-child(1) {
+    background-color: #4285f5;
+}
+
+.color:nth-child(2) {
+    background-color: #ea4335;
+}
+
+.color:nth-child(3) {
+    background-color: #fbbc05;
+}
+
+.color:nth-child(4) {
+    background-color: #34a853;
+}
